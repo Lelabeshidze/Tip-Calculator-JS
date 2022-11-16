@@ -1,0 +1,17 @@
+.title {
+  text-align: center;
+  font-weight: bold;
+}
+.paragraph {
+  border-bottom: 2px solid rgb(211, 211, 211, 0.5);
+}
+.button-div {
+  text-align: center;
+}
+.button-text {
+  border-top: 2px solid rgb(211, 211, 211, 0.5);
+}
+.button{
+    border-radius: 5px;
+    width: fit-content;
+}
