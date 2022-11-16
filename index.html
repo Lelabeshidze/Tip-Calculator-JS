@@ -8,7 +8,7 @@
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
     />
-    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="styles.css" />
     <title>Document</title>
   </head>
   <body>
@@ -20,13 +20,13 @@
         <label for="amount">Bill Amount</label>
         <br />
         <button><i class="fa-solid fa-dollar-sign"></i></button
-        ><input id="amount" type="text" />
+        ><input id="amount" type="number" />
         <br />
         <br />
         <label for="guest">Number of Guests</label>
         <br />
         <button><i class="fa-solid fa-person"></i></button
-        ><input id="guest" type="text" />
+        ><input id="guest" type="number" />
         <br />
         <br />
         <label for="quality">Service Quality</label>
@@ -41,7 +41,13 @@
         </select>
         <div class="button-div">
           <p class="button-text"></p>
-          <button onclick="calculate()" class="button">Calculate</button>
+          <button
+            onclick="calculate()"
+            class="button"
+            style="width: fit-content; border-radius: 5px;"
+          >
+            Calculate
+          </button>
         </div>
       </div>
       <div id="tip-amount"></div>
